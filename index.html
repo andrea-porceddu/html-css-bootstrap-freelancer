@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <!-- bootstrap -->
+    <!-- font-awesome 4.7.0 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- custom css -->
     <link rel="stylesheet" href="./css/style.css">
-    <!-- custom css -->
     <title>Bootstrap Freelancer</title>
   </head>
   <body>
@@ -26,11 +26,10 @@
 
       <!-- jumbotron -->
       <div class="row">
-        <div class="jumbotron text-center bg-green">
+        <div class="jumbotron bg-green text-center">
           <div class="container-fluid">
             <img src="./img/avatar.svg" class="jumbotron-avatar" alt="">
             <h1>start bootstrap</h1>
-
             <!-- star -->
             <!-- <div class="row">
               <div class="star-container col-md-2 col-md-offset-5">
@@ -40,7 +39,6 @@
               </div>
             </div> -->
   					<!-- star -->
-
             <span class="jumbotron-freelancer-title">graphic artist</span>
             <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
             <span class="jumbotron-freelancer-title">web designer</span>
@@ -52,9 +50,10 @@
       <!-- END jumbotron -->
 
       <!-- portfolio -->
-      <div class="container portfolio">
+      <div class="container portfolio text-center">
+        <h1>portfolio</h1>
         <!-- first row -->
-        <div class="row">
+        <div class="row margin-b">
           <div class="col-md-4">
             <img src="./img/house.png" alt="">
           </div>
@@ -66,9 +65,8 @@
           </div>
         </div>
         <!-- END first row -->
-
         <!-- second row -->
-        <div class="row row-margin-t row-margin-b">
+        <div class="row margin-b">
           <div class="col-md-4">
             <img src="./img/pad.png" alt="">
           </div>
@@ -82,6 +80,33 @@
         <!-- END second row -->
       </div>
       <!-- END portfolio -->
+
+      <!-- about -->
+      <div class="row about bg-green text-center margin-b">
+        <div class="container-fluid">
+          <h1>about</h1>
+          <div class="col-md-6 col-pad-l text-left">
+            <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+          </div>
+          <div class="col-md-6 col-pad-r text-left">
+            <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+          </div>
+        </div>
+        <!-- about - download button -->
+        <a class="btn btn-download" href="#/download" role="button">
+          <i class="fa fa-download" aria-hidden="true">
+            Download
+          </i>
+        </a>
+        <!-- END about - download button -->
+      </div>
+      <!-- END about -->
+
+      <!-- contact -->
+      <div class="container contact text-center">
+        
+      </div>
+      <!-- END contact -->
 
     </div>
     <!-- END page full width container -->

@@ -1,13 +1,49 @@
 /* Common */
-/* row margin */
-.row-margin-t {
-  margin-top: 20px;
+h1 {
+  text-transform: uppercase;
 }
 
-.row-margin-b {
-  margin-bottom: 20px;
+span {
+  text-transform: uppercase;
 }
-/* row margin */
+/* Common */
+
+/* Utility */
+/* margin  */
+.mar-l {
+  margin-left: 500px;
+}
+
+.mar-r {
+  margin-right: 500px;
+}
+
+.mar-t {
+  margin-top: 30px;
+}
+
+.mar-b {
+  margin-bottom: 30px;
+}
+/* margin */
+
+/* padding  */
+.pad-l {
+  padding-left: 500px;
+}
+
+.pad-r {
+  padding-right: 500px;
+}
+
+.pad-t {
+  padding-top: 30px;
+}
+
+.pad-b {
+  padding-bottom: 30px;
+}
+/* padding */
 
 /* background color */
 .bg-blue {
@@ -22,7 +58,17 @@
   background-color: #fff;
 }
 /* background color */
-/* Common */
+
+/* text alignment */
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+/* text alignment */
+/* Utility */
 
 .top-nav {
   height: 80px;
@@ -36,9 +82,8 @@
   height: 300px;
 }
 
-.jumbotron {
+.jumbotron, .about {
   color: #fff;
-  text-transform: uppercase;
 }
 
 .jumbotron-freelancer-title {
@@ -69,7 +114,16 @@
   top: 50%;
 } */
 
+.portfolio {
+  color: #333333;
+}
+
 .portfolio img {
   height: 200px;
-  border-radius: 5px;
+  border-radius: 8px;
+}
+
+.btn-download {
+  color: #fff;
+  border-color: #fff;
 }
