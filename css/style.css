@@ -2,8 +2,63 @@
 .bg-blue {
   background-color: #2c3e50;
 }
+
+.bg-green {
+  background-color: #1abc9c;
+}
+
+.bg-white {
+  background-color: #fff;
+}
 /* Common */
 
 .top-nav {
   height: 80px;
+}
+
+.container-fluid .jumbotron {
+  border-radius: 0;
+}
+
+.jumbotron-avatar {
+  height: 300px;
+}
+
+.jumbotron {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.jumbotron-freelancer-title {
+  font-size: 20px;
+}
+
+/* .star-container {
+  position: relative;
+}
+
+.star:before {
+  display: block;
+  width: 100px;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  left: 0%;
+  top: 50%;
+}
+
+.star:after {
+  display: block;
+  width: 100px;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  right: 0%;
+  top: 50%;
+} */
+
+.portfolio {
+  height: 600px;
+  text-align: center;
+  border-bottom: 2px solid red;
 }
