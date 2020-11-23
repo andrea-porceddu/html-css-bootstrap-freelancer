@@ -1,4 +1,15 @@
 /* Common */
+/* row margin */
+.row-margin-t {
+  margin-top: 20px;
+}
+
+.row-margin-b {
+  margin-bottom: 20px;
+}
+/* row margin */
+
+/* background color */
 .bg-blue {
   background-color: #2c3e50;
 }
@@ -10,6 +21,7 @@
 .bg-white {
   background-color: #fff;
 }
+/* background color */
 /* Common */
 
 .top-nav {
@@ -57,8 +69,7 @@
   top: 50%;
 } */
 
-.portfolio {
-  height: 600px;
-  text-align: center;
-  border-bottom: 2px solid red;
+.portfolio img {
+  height: 200px;
+  border-radius: 5px;
 }
