@@ -167,4 +167,36 @@
   background-color: #1abc9c;
   color: #fff;
 }
-/* contact */
+/* END contact */
+
+/* footer */
+.bl-top-footer {
+  height: 200px;
+  background-color: #3a546d;
+  color: #fff;
+}
+
+.bl-top-footer h3 {
+  text-transform: uppercase;
+}
+
+.bl-social-icon i {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  vertical-align: middle;
+}
+
+.bl-bottom-footer {
+  height: 80px;
+  background-color: #2c3e50;
+  color: #fff;
+}
+
+.bl-bottom-footer span {
+  line-height: 80px;
+}
+/* END footer */
