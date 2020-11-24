@@ -93,9 +93,34 @@
 }
 /* portfolio */
 
+/* about */
+.bl-about {
+  background-color: #1abc9c;
+  color: #fff;
+  text-align: center;
+}
 
+.bl-about h1 {
+  text-transform: uppercase;
+  font-weight: bolder;
+}
 
+.bl-about-button {
+  background-color: #1abc9c;
+  color: #fff;
+  border-color: #fff;
+}
 
+.bl-about-p-padding-l {
+  text-align: left;
+  padding-left: 300px;
+}
+
+.bl-about-p-padding-r {
+  text-align: left;
+  padding-right: 300px;
+}
+/* about */
 
 
 
