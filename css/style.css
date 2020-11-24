@@ -105,7 +105,7 @@
   font-weight: bolder;
 }
 
-.bl-about-button {
+.bl-about-btn {
   background-color: #1abc9c;
   color: #fff;
   border-color: #fff;
@@ -122,28 +122,49 @@
 }
 /* about */
 
+/* contact */
+.bl-contact {
+  /* text-align: center; */
+  text-transform: uppercase;
+  margin-top: 20px;
+}
 
+.bl-contact h1 {
+  text-align: center;
+  font-weight: bolder;
+}
 
-
-
-.sn-form {
+.bl-form {
   width: 600px;
   margin: 0 auto;
 }
 
-.sn-form .form-group {
+.bl-form .form-group {
   border-bottom: 1px solid #ccc;
 }
 
-.sn-form ::placeholder, .sn-form input, .sn-form textarea {
+.bl-form ::placeholder, .bl-form input, .bl-form textarea {
   color: #2c3e50;
   font-size: 20px;
   padding: 0;
   border: 0;
 }
 
-.sn-form input {
+.bl-form textarea {
+  border-bottom: 1px solid #ccc;
+}
+
+.bl-form input {
   border: 0;
   border-radius: 0;
   box-shadow: none;
 }
+
+.bl-contact-btn {
+  text-align: left;
+  margin-top: 10px;
+  border: none;
+  background-color: #1abc9c;
+  color: #fff;
+}
+/* contact */
