@@ -1,129 +1,101 @@
 /* Common */
-h1 {
-  text-transform: uppercase;
-}
 
-span {
-  text-transform: uppercase;
-}
 /* Common */
 
 /* Utility */
-/* margin  */
-.mar-l {
-  margin-left: 500px;
-}
-
-.mar-r {
-  margin-right: 500px;
-}
-
-.mar-t {
-  margin-top: 30px;
-}
-
-.mar-b {
-  margin-bottom: 30px;
-}
-/* margin */
-
-/* padding  */
-.pad-l {
-  padding-left: 500px;
-}
-
-.pad-r {
-  padding-right: 500px;
-}
-
-.pad-t {
-  padding-top: 30px;
-}
-
-.pad-b {
-  padding-bottom: 30px;
-}
-/* padding */
-
 /* background color */
-.bg-blue {
+.bl-navbar {
   background-color: #2c3e50;
 }
-
-.bg-green {
-  background-color: #1abc9c;
-}
-
-.bg-white {
-  background-color: #fff;
-}
 /* background color */
-
-/* text alignment */
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
-}
-/* text alignment */
 /* Utility */
 
-.top-nav {
-  height: 80px;
-}
-
-.container-fluid .jumbotron {
+/* navbar */
+.bl-navbar {
+  margin-bottom: 0;
   border-radius: 0;
+  border: 0;
 }
 
-.jumbotron-avatar {
-  height: 300px;
-}
-
-.jumbotron, .about {
+.bl-navbar .navbar-brand, .bl-navbar .navbar-nav > li > a {
   color: #fff;
+  text-transform: uppercase;
 }
 
-.jumbotron-freelancer-title {
+.bl-navbar .navbar-brand:hover, .bl-navbar .navbar-nav > li > a:hover {
+  color: #1abc9c;
+}
+/* END navbar */
+
+/* jumbotron */
+.container .bl-jumbotron, .container-fluid .bl-jumbotron {
+  background-color: #1abc9c;
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 0;
+  text-align: center;
+}
+
+.bl-jumbotron {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.bl-jumbotron-avatar {
+  height: 250px;
+}
+/* END jumbotron */
+
+.star {
+  margin: 20px 0;
+}
+
+.star i {
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.star:before, .star:after {
+  content: "";
+  display: inline-block;
+  background-color: #fff;
+  width: 150px;
+  height: 4px;
+  border-radius: 2px;
+  margin: 0 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sn-form {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.sn-form .form-group {
+  border-bottom: 1px solid #ccc;
+}
+
+.sn-form ::placeholder, .sn-form input, .sn-form textarea {
+  color: #2c3e50;
   font-size: 20px;
+  padding: 0;
+  border: 0;
 }
 
-/* .star-container {
-  position: relative;
-}
-
-.star:before {
-  display: block;
-  width: 100px;
-  height: 2px;
-  background-color: #fff;
-  position: absolute;
-  left: 0%;
-  top: 50%;
-}
-
-.star:after {
-  display: block;
-  width: 100px;
-  height: 2px;
-  background-color: #fff;
-  position: absolute;
-  right: 0%;
-  top: 50%;
-} */
-
-.portfolio {
-  color: #333333;
-}
-
-.portfolio img {
-  height: 200px;
-  border-radius: 8px;
-}
-
-.btn-download {
-  color: #fff;
-  border-color: #fff;
+.sn-form input {
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
 }
